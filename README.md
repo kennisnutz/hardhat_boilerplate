@@ -1,6 +1,3 @@
-**Note**: This repo is not under maintainance.
-
-
 
 
 # Hardhat Boilerplate for BSC, ETH, and Arbitrum Development
@@ -8,9 +5,9 @@ Welcome to the Hardhat Boilerplate repository! This repository provides you with
 
 ## Features
 
-,,,- Pre-configured network setups for Ethereum, BSC, and Arbitrum
+- Pre-configured network setups for Ethereum, BSC, and Arbitrum
 - Basic project structure and configuration files
-- Example contracts and tests to get you started quickly
+
 
 ## Prerequisites
 
@@ -46,10 +43,10 @@ To set up the development environment and start working with this boilerplate, f
 4. Configure Environment Secrets:
      + Create a secret.ts file by copying the contents of `secrets.ts.sample` file using the code:
 
-   ```bash
-    $ cp .secret.ts.sample .secret.ts
-   ```
- + Update the private keys and other parameters in the `secret.ts` files (e.g., address, private key, explorer api keys) to match your setup.
+  ```bash
+   $ cp .secret.ts.sample .secret.ts
+  ```
+     + Update the private keys and other parameters in the `secret.ts` files (e.g., address, private key, explorer api keys) to match your setup.
 
 5. Write Smart Contracts:
      + Use the `contracts/` directory to write your own smart contracts or modify the example contracts provided.
