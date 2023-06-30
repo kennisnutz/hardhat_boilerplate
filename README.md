@@ -8,7 +8,7 @@ Welcome to the Hardhat Boilerplate repository! This repository provides you with
 
 ## Features
 
-- Pre-configured network setups for Ethereum, BSC, and Arbitrum
+,,,- Pre-configured network setups for Ethereum, BSC, and Arbitrum
 - Basic project structure and configuration files
 - Example contracts and tests to get you started quickly
 
@@ -16,8 +16,8 @@ Welcome to the Hardhat Boilerplate repository! This repository provides you with
 
 Before you begin, please ensure you have the following installed:
 
-* Node.js (v14 or above)
-* npm (Node Package Manager)
+   * Node.js (v14 or above)
+   * npm (Node Package Manager)
 
 ## Getting Started
 
@@ -44,22 +44,22 @@ To set up the development environment and start working with this boilerplate, f
   $ yarn
   ```
 4. Configure Environment Secrets:
-  ...+ Create a secret.ts file by copying the contents of `secrets.ts.sample` file using the code:
+     + Create a secret.ts file by copying the contents of `secrets.ts.sample` file using the code:
 
    ```bash
     $ cp .secret.ts.sample .secret.ts
    ```
-  ...+ Update the private keys and other parameters in the `secret.ts` files (e.g., address, private key, explorer api keys) to match your setup.
+ + Update the private keys and other parameters in the `secret.ts` files (e.g., address, private key, explorer api keys) to match your setup.
 
 5. Write Smart Contracts:
-  ...+ Use the `contracts/` directory to write your own smart contracts or modify the example contracts provided.
+     + Use the `contracts/` directory to write your own smart contracts or modify the example contracts provided.
 
-  ...+ You can also add any necessary libraries or dependencies in the contracts/ directory.
+     + You can also add any necessary libraries or dependencies in the contracts/ directory.
 
 6. Write Tests:
-  ...+ Use the `test/` directory to write tests for your smart contracts.
+     + Use the `test/` directory to write tests for your smart contracts.
 
-  ...+ Add test cases for each contract or functionality you want to test.
+     + Add test cases for each contract or functionality you want to test.
 
 7. Compile Contracts:
   ```bash
