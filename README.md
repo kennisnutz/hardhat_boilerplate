@@ -46,7 +46,9 @@ To set up the development environment and start working with this boilerplate, f
   ```bash
    $ cp .secret.ts.sample .secret.ts
   ```
-     + Update the private keys and other parameters in the `secret.ts` files (e.g., address, private key, explorer api keys) to match your setup.
+
+    + Update the private keys and other parameters in the `secret.ts` files (e.g., address, private key, explorer api keys) to match your setup.
+     
 
 5. Write Smart Contracts:
      + Use the `contracts/` directory to write your own smart contracts or modify the example contracts provided.
