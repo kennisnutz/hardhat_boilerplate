@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "prettier": "prettier --write 'contracts/**/*.sol'",
+    "prettier": "prettier --write 'contracts/**/*.sol'"
     
   },
   "devDependencies": {
